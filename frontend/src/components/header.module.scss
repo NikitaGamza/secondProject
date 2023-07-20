@@ -1,0 +1,22 @@
+.header {
+  background-color: #444444;
+  padding: 16px;
+  &__nav {
+    width: 1200px;
+    margin: 0 auto;
+    &__link {
+      // color: red;
+      color: #fff;
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0px;
+      }
+      &_main {
+        margin-right: 20px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+  }
+}
